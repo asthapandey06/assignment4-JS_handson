@@ -1,23 +1,16 @@
-const myMusic = [
-    {
-      "artist": "Billy Joel",
-      "title": "Piano Man",
-      "release_year": 1973,
-      "formats": [
-        "CS",
-        "8T",
-        "LP" ],
-      "gold": true
-    },
-    {
-      "artist": "ABBA",
-      "title": "Ring Ring",
-      "release_year": 1973,
-      "formats": [
-        "CS",
-        "8T",
-        "LP",
-      "CD",
-    ]
+var myStorage = {
+    "car": {
+      "inside": {
+        "glove box": "maps",
+        "passenger seat": "crumbs"
+       },
+      "outside": {
+        "trunk": "jack"
+      }
     }
-  ];
+  };
+  
+  // Only change code below this line
+  myStorage.car.inside["glove box"];
+  
+  var gloveBoxContents = myStorage.car.inside["glove box"]; // Change this line
