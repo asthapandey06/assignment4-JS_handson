@@ -1,11 +1,9 @@
-// Setup
 const myDog = {
-    "name": "Coder",
+    "name": "Happy Coder",
     "legs": 4,
     "tails": 1,
     "friends": ["freeCodeCamp Campers"]
   };
   
-  // Only change code below this line
-  myDog.name = "Happy Coder"; // Dot notation
-  myDog["name"] = "Happy Coder"; // Bracket notation
+  myDog.bark = "woof"; // Dot notation
+  myDog["bark"] = "woof"; // Bracket notation
